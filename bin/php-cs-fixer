@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+set -x
+./vendor/bin/sail php vendor/bin/php-cs-fixer "${@}"
